@@ -1,15 +1,19 @@
-# Criando APIs com Java 17 usando Spring Boot e AWS
+Gerenciador de tarefas onde os usuários podem adicionar, visualizar, atualizar e excluir tarefas de sua lista pessoal
 
-Projeto criado para durante curso na Udemy
+* Este projeto foi montado usando SpringBoot na versão 17+ do Java
+* Dentro deste projeto possui:
+  
+- SpringData (facilitar a configuração e utilização com o seu banco de dados)
+- SpringSecutrity (Para a acesso do usuários)
+-  SpringWeb (Para manusear APis)
+-  PostGreSQL (Para banco de dados)
+-  PostMan(para testes de APIs)
+-  Implementação na AWS
 
-Link do curso:
 
-https://www.udemy.com/course/criando-apis-com-java-17-usando-spring-boot-e-aws/
 
-# gerencidor-tarefas
-Um aplicativo simples para gerênciar tarefas, os usuários podem adicionar, visualizar, atualizar e excluir tarefas de sua lista pessoal
+OBS: criar a variavel global {{LOCALHOST}} (PostMan) ou você trocar {{LOCALHOST}} por localhost:8080 no seu ambiente).
 
-# Postman collection
-A collection do postman está localizada na pasta raiz do projeto com o nome gerenciador-tarefas.postman_collection.json (OBS: Não se esqueça de criar a variavel global {{LOCALHOST}} ou você trocar {{LOCALHOST}} por localhost:8080 no seu ambiente).
+
 
 
